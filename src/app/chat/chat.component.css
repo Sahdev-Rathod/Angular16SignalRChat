@@ -1,0 +1,48 @@
+.chat-container {
+  width: 600px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+.user-section {
+  margin-bottom: 20px;
+}
+
+.user-section input {
+  width: 100%;
+  padding: 10px;
+}
+
+.messages {
+  height: 400px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.message small {
+  margin-left: 10px;
+  color: gray;
+}
+
+.message-section {
+  display: flex;
+  gap: 10px;
+}
+
+.message-section input {
+  flex: 1;
+  padding: 10px;
+}
+
+.message-section button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
